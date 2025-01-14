@@ -17,7 +17,7 @@ fi
 # Assign argument 1 and argument 2 to variables
 targetDirectory=$1 
 destinationDirectory=$2
-
+- chmod u+x backup.sh
 # [TASK 2]
 # Display the values of the two command line arguments
 echo "Target directory: $targetDirectory"
